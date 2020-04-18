@@ -55,7 +55,7 @@
               <exclude>**/TransformerTest.java</exclude>
             </excludes>
             <argLine>
-              -javaagent:"${project.build.directory}/file-leak-detector-${project.version}-jar-with-dependencies.jar"
+              -javaagent:"${project.build.directory}/file-leak-detector-${project.version}-jar-with-dependencies.jar" -Xverify:none
             </argLine>
           </configuration>
         </execution>
